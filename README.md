@@ -1,4 +1,4 @@
-# css-components
+## animated searchbar
 
 **It's a simple search bar**
 
