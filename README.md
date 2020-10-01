@@ -1,5 +1,5 @@
 # animated-searchbar
 
-Its a simple search bar
+**Its a simple search bar**
 
-## please add your contributions to a new branch with branchname (yourname_update message)
+ _please add your contributions to a new branch with branchname (```yourname_update message```)_
