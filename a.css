@@ -1,13 +1,13 @@
 body{
     margin:0;
     padding:0;
-    background-color: #b2e0df;
     background-color: #2F4F4F;
     height:100vh;
     display:flex;
     justify-content: center;
     align-items: center;
   }
+
   .search-container{
       background: #ffffff;
       height: 30px;
@@ -23,9 +23,11 @@ body{
       inset -4px -4px 6px 0 rgba(255, 255, 255, .2),
       inset 4px 4px 6px 0 rgba(0, 0, 0, 3);
   }
+
   .search-container:hover > .search-input{
       width: 400px;
   }
+
   .search-container .search-input{
       background: transparent;
       border: none;
@@ -35,9 +37,11 @@ body{
       font-size: 16px;
       transition: 0.8s;
   }
+
   .search-container .search-btn .fas{
       color: #216867;
   }
+
   @keyframes hoverShake{
       0%{transform: skew(0deg),0deg;}
         25%{transform: skew(5deg, 5deg);}
@@ -48,6 +52,7 @@ body{
         color: #5cbdbb;
     }  
   
+
     @keyframes hoverShake{
       0%{transform: skew(0deg),0deg;}
         25%{transform: skew(5deg, 5deg);}
@@ -56,4 +61,8 @@ body{
     }
 .search-container:hover{
     animation: hoverShake 0.15s linear 3;
-} 
+    
+}
+
+
+
