@@ -1,7 +1,7 @@
 body{
     margin:0;
     padding:0;
-    background-color: #2F4F4F;
+    background-color: rgb(49, 241, 107);
     height:100vh;
     display:flex;
     justify-content: center;
@@ -42,25 +42,8 @@ body{
       color: #216867;
   }
 
-  @keyframes hoverShake{
-      0%{transform: skew(0deg),0deg;}
-        25%{transform: skew(5deg, 5deg);}
-        75%{transform: skew(-5deg -5deg);}
-        100%{transform: skew(-3deg -5deg);}
-    }
-    .search-container .search-btn .fas{
-        color: #5cbdbb;
-    }  
-  
-
-    @keyframes hoverShake{
-      0%{transform: skew(0deg),0deg;}
-        25%{transform: skew(5deg, 5deg);}
-        75%{transform: skew(-5deg -5deg);}
-        100%{transform: skew(-3deg -5deg);}
-    }
 .search-container:hover{
-    animation: hoverShake 0.15s linear 3;
+    animation: hoverShake 0.15s linear 0;
     
 }
 
